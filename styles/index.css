@@ -1,0 +1,29 @@
+:root {
+    --rosa: #f277b0;
+    --azul: #4c9ec9;
+    --verde: #5dcd97;
+    --amarelo: #fdc215;
+    --vermelho: #cb2121;
+    --laranja: #e6783a;
+    --roxo: #e19ae2;
+    --branco: whitesmoke;
+}
+
+#root {
+    width: 100%;
+    background-color: var(--branco);
+}
+
+nav {
+    background-color: var(--branco)!important;
+}
+
+#barbieBanner {
+    background-image: url(../imgs/fundo-barbie.jpg);
+    background-size: cover;
+    background-position: 100% 26%;
+}
+
+.sublinhado {
+    height: 8px;
+}
