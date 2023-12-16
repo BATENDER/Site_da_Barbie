@@ -24,6 +24,29 @@ nav {
     background-position: 100% 26%;
 }
 
-.sublinhado {
+#logoBarbie {
+    width: 350px;
+}
+
+.sublinhado, .sublinhadoKen {
     height: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    #logoBarbie {
+        width: 150px;
+        display: flex;
+        justify-content: center;
+    }
+    .p-md {
+        width: 100% !important;
+        text-align: center;
+    }
+    .sublinhado {
+        width: 90px !important;
+    }
+    .imgMain {
+        width: auto !important;
+        height: 15rem;
+    }
 }
